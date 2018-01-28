@@ -25,10 +25,10 @@ class Nav extends Component {
             }
           </li>
           <li>
-            <Link to="/">Prochainement</Link>
+            <Link to="/films-prochaines-sorties">Prochainement</Link>
           </li>
           <li>
-            <Link to="/">Actuellement en salle</Link>
+            <Link to="/films-actuellement-au-cinéma">Actuellement au cinéma</Link>
           </li>
         </ul>
         <ul className="nav navbar-nav navbar-right">

@@ -9,8 +9,8 @@ import Callback from './components/Callback';
 import Home from './components/Home';
 import PopularMovies from './components/PopularMovies';
 import TopRatedMovies from './components/TopRatedMovies';
-
-
+import UpcomingMovies from './components/UpcomingMovies';
+import NowPlayingMovies from './components/NowPlayingMovies';
 
 const Root = () => {
   return (
@@ -21,6 +21,8 @@ const Root = () => {
         <Route path="/accueil" component={Home} />
         <Route path="/films-populaires" component={PopularMovies} />
         <Route path="/films-mieux-notés" component={TopRatedMovies} />
+        <Route path="/films-prochaines-sorties" component={UpcomingMovies} />
+        <Route path="/films-actuellement-au-cinéma" component={NowPlayingMovies} />
       </Router>
     </div>
   )
