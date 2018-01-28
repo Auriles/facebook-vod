@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import Nav from './Nav';
-import Home from './Home';
+
+
 import { isLoggedIn } from '../utils/AuthService';
 import axios from 'axios';
 
@@ -15,6 +16,9 @@ class Display extends Component {
       <div>
 
         <Nav />
+
+
+
 
         <h3 className="text-center"> Bienvenue sur Facebook VOD </h3>
         <hr />

@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router';
 import Nav from './Nav';
+import Menu from './Menu';
 
 class UpcomingMovies extends React.Component {
 
@@ -30,6 +31,7 @@ class UpcomingMovies extends React.Component {
       <div className="">
 
         <Nav />
+
 
         <div>
           {this.state.movie.map(movie =>

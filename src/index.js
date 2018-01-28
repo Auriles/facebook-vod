@@ -5,6 +5,8 @@ import { requireAuth } from './utils/AuthService';
 
 import Display from './components/Display';
 import Callback from './components/Callback';
+import Menu from './components/Menu';
+
 
 import Home from './components/Home';
 import PopularMovies from './components/PopularMovies';
@@ -13,8 +15,10 @@ import UpcomingMovies from './components/UpcomingMovies';
 import NowPlayingMovies from './components/NowPlayingMovies';
 
 const Root = () => {
+
   return (
     <div className="container">
+      <Menu />
       <Router history={browserHistory}>
         <Route path="/" component={Display} />
         <Route path="/callback" component={Callback} />
@@ -29,3 +33,4 @@ const Root = () => {
 }
 
 ReactDOM.render(<Root />, document.getElementById('root'));
+

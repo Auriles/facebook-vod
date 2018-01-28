@@ -98,16 +98,15 @@ html {
   z-index: -1;
   height: 100%;
   width: 3px;
-  background-color: black;
+  background-color: royalblue;
   -webkit-transition: width .2s ease-in;
   -moz-transition: width .2s ease-in;
   -ms-transition: width .2s ease-in;
   transition: width .2s ease-in;
 }
 
-.sidebar-nav li:first-child a {
+.sidebar-nav li:first-child  {
   color: #fff;
-  background-color: #1a1a1a;
 }
 
 .sidebar-nav li:nth-child(2):before {
