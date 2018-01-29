@@ -2,25 +2,18 @@ import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router';
 import Nav from './Nav';
+import Player from './Player';
 
 
 
 
 
-
-class Home extends React.Component {
+class MoviePlayer extends React.Component {
 
   render() {
 
     return (
-      <div className="">
-
-      <Nav />
-
-
-
-
-      </div>
+      <Player />
     );
 
   }
@@ -28,4 +21,4 @@ class Home extends React.Component {
 }
 
 
-export default Home;
+export default MoviePlayer;

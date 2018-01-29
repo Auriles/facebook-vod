@@ -13,6 +13,8 @@ import PopularMovies from './components/PopularMovies';
 import TopRatedMovies from './components/TopRatedMovies';
 import UpcomingMovies from './components/UpcomingMovies';
 import NowPlayingMovies from './components/NowPlayingMovies';
+import MoviePlayer from './components/MoviePlayer';
+import Player from './components/Player';
 
 const Root = () => {
 
@@ -27,6 +29,7 @@ const Root = () => {
         <Route path="/films-mieux-notés" component={TopRatedMovies} />
         <Route path="/films-prochaines-sorties" component={UpcomingMovies} />
         <Route path="/films-actuellement-au-cinéma" component={NowPlayingMovies} />
+        <Route path="/lecteur-vidéo" component={MoviePlayer} />
       </Router>
     </div>
   )

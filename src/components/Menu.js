@@ -1,6 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router';
+import Home from './Home';
+
 
 class Menu extends React.Component {
   render() {
@@ -15,15 +17,11 @@ class Menu extends React.Component {
             <nav className="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
               <ul className="nav sidebar-nav">
 
-
-
-
-
                 <li>
                   <Link to='/accueil'>
-                    <a href="">
+
                       <i className="fa fa-home" aria-hidden="true"></i>
-                    </a>
+
                   </Link>
                 </li>
 
@@ -36,7 +34,8 @@ class Menu extends React.Component {
                 </li>
 
                 <li>
-                  <Link>
+                  <Link to='/lecteur-vidéo'>
+
                     <a href="">
                       <i className="fa fa-play-circle" aria-hidden="true"></i>
                     </a>
