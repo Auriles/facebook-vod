@@ -5,10 +5,10 @@ import screenfull from 'screenfull'
 
 
 
-import './reset.css'
-import './defaults.css'
-import './range.css'
-import './player.css'
+// import './reset.css'
+// import './defaults.css'
+// import './range.css'
+// import './player.css'
 
 
 import ReactPlayer from 'react-player'

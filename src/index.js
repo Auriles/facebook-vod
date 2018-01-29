@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router';
 import { requireAuth } from './utils/AuthService';
+import { login, logout, isLoggedIn } from './utils/AuthService';
 
 import Display from './components/Display';
 import Callback from './components/Callback';

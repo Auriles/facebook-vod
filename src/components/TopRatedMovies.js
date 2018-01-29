@@ -14,7 +14,7 @@ class TopRatedMovies extends React.Component {
 
   componentDidMount() {
     let sortByPopularity = "&sort_by=popularity.desc";
-    let topRatedMovies = 'https://api.themoviedb.org/3/movie/top_rated?api_key=62903433da4304fcd4c249e07f22c550&language=en-US&page=1' + sortByPopularity;
+    let topRatedMovies = 'https://api.themoviedb.org/3/movie/top_rated?api_key=62903433da4304fcd4c249e07f22c550&language=fr-FR&page=1' + sortByPopularity;
     axios.get(topRatedMovies).then(response => {
       this.setState({ movie: response.data.results })
     });
@@ -36,7 +36,12 @@ class TopRatedMovies extends React.Component {
             <div className="">
               <div className="">
                 <img className="" src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${movie.poster_path}`} alt={movie.title} />
-                <div className="" key={movie.id}>{movie.title}</div>
+                <div className="" key={movie.id}>
+                  Titre : {movie.title} <br />
+                  Description : {movie.overview} <br />
+                  Date de sortie : {movie.release_date} <br />
+                  Note globale du film : {movie.vote_average} / 10
+                </div>
               </div>
             </div>
           )}

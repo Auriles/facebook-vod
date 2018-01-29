@@ -9,9 +9,12 @@ class Nav extends Component {
 
   render() {
     return (
+
       <nav className="navbar navbar-default">
         <div className="navbar-header">
-          <Link className="navbar-brand" to="/accueil">Accueil</Link>
+          {
+            (isLoggedIn()) ? <Link className="navbar-brand" to="/accueil">Accueil</Link> : ''
+          }
         </div>
          <ul className="nav navbar-nav">
           <li>
@@ -26,16 +29,20 @@ class Nav extends Component {
             }
           </li>
           <li>
-            <Link to="/films-prochaines-sorties">Prochainement</Link>
+            {
+              (isLoggedIn()) ? <Link to="/films-prochaines-sorties">Prochainement</Link> : ''
+            }
           </li>
           <li>
-            <Link to="/films-actuellement-au-cinéma">Actuellement au cinéma</Link>
+            {
+              (isLoggedIn()) ? <Link to="/films-actuellement-au-cinéma">Actuellement au cinéma</Link> : ''
+            }
           </li>
         </ul>
         <ul className="nav navbar-nav navbar-right">
           <li>
             {
-              (isLoggedIn()) ? (<button className="btn btn-danger log" onClick={() => logout()}>Log out </button>) : (<button className="btn btn-info log" onClick={() => login()}>Log In</button>)
+              (isLoggedIn()) ? (<button className="btn btn-danger log" onClick={() => logout()}>Déconnexion </button>) : (<button className="btn btn-info log" onClick={() => login()}>Connexion</button>)
             }
           </li>
         </ul>

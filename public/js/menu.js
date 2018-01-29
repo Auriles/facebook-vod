@@ -49,8 +49,7 @@
 
     // Appel des fonctions
 
-    open();
-    close();
+
 
   });
 
