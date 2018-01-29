@@ -1,7 +1,9 @@
-import React from 'react';
+
+import React, { Component } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router';
-import Home from './Home';
+import { login, logout, isLoggedIn } from '../utils/AuthService';
+import Auth from '../utils/AuthService.js';
 
 
 class Menu extends React.Component {
@@ -18,10 +20,10 @@ class Menu extends React.Component {
               <ul className="nav sidebar-nav">
 
                 <li>
-                  <Link to='/accueil'>
-
+                   <Link to='/accueil'>
+                    <a href="/accueil">
                       <i className="fa fa-home" aria-hidden="true"></i>
-
+                    </a>
                   </Link>
                 </li>
 
@@ -34,13 +36,14 @@ class Menu extends React.Component {
                 </li>
 
                 <li>
-                  <Link to='/lecteur-vidéo'>
-
-                    <a href="">
+                  <Link to=''>
+                    <a href="/lecteur-video">
                       <i className="fa fa-play-circle" aria-hidden="true"></i>
                     </a>
                   </Link>
                 </li>
+
+
 
 
 

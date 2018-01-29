@@ -8,6 +8,9 @@ import Nav from './Nav';
 
 
 
+
+
+
 class Home extends React.Component {
 
   render() {
@@ -16,6 +19,9 @@ class Home extends React.Component {
       <div className="">
 
       <Nav />
+
+
+
 
 
 
