@@ -18,15 +18,20 @@ class Display extends Component {
     return (
       <div>
 
+        {/* Barre de navigation */}
         <Nav />
 
+        {/* Titre principale */}
         <div className="displayDivTitle">
           <h3 className="text-center displayTitle"> Bienvenue sur Facebook VOD </h3>
         </div>
 
+        {/* Séparateur */}
         <hr />
 
+        {/* Paragraphe */}
         <div className="col-sm-12 displayDivParagraph">
+          {/* Appel de la fonction de connexion, permettant de savoir si un utilisateur est connecté ou non */}
           {
             (!isLoggedIn())
               ? <p className="text-center">
