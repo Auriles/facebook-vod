@@ -31,20 +31,25 @@ class PopularMovies extends React.Component {
 
         <Nav />
 
-        <div>
+        <div className="container">
           {this.state.movie.map(movie =>
-            <div className="">
-              <div className="">
+          <div>
+            <div className="row">
+              <div className="col-lg-12" key={movie.id}>Titre : {movie.title} </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-2">
                 <img className="" src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${movie.poster_path}`} alt={movie.title} />
-                <div className="" key={movie.id}>
-                  Titre : {movie.title} <br/>
-                  Description : {movie.overview} <br/>
-                  Date de sortie : {movie.release_date} <br/>
-                  Note globale du film : {movie.vote_average} / 10
-                </div>
+              </div>
+              <div className="col-lg-10" key={movie.id}>
+                Description : <br/> {movie.overview} <br /> <br/>
+                Date de sortie : <br/> {movie.release_date} <br /> <br/>
+                Note globale du film : <br/> {movie.vote_average} / 10
               </div>
             </div>
+          </div>
           )}
+
         </div>
 
       </div>
