@@ -1,0 +1,50 @@
+/* Auriles El Haddad
+31 / 01 / 2018
+Facebook VOD - Tous droits reservés. */
+
+/* --------------------------------------- */
+
+/* CSS de la Page Display.js */
+
+/* Div du titre principale  */
+.displayDivTitle {
+  background-color:#4D67A8;
+  border-radius: 7px;
+}
+
+/* Titre principale */
+.displayTitle {
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Div du paragraphe */
+.displayDivParagraph {
+  border: solid rgba(77, 103, 168, 0.5) 1px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(77, 103, 168, 0.2);
+}
+
+/* Div du paragraphe au survol */
+.displayDivParagraph:hover {
+  border: solid white 1px;
+  background-color: rgba(77, 103, 168, 0.75);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(77, 103, 168, 0.2);
+  transition: all 0.3s ease-in 0s;
+}
+
+/* Paragraphe */
+.displayDivParagraph > p {
+  padding-top: 5px;
+  color: #4D67A8;
+}
+
+/* Paragraphe au survol */
+.displayDivParagraph > p:hover {
+  padding-top: 5px;
+  color: white;
+  background: transparent;
+  transition: all 0.3s ease-in 0s;
+}

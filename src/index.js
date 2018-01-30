@@ -4,7 +4,6 @@ import { Router, Route, browserHistory } from 'react-router';
 import { requireAuth } from './utils/AuthService';
 import { login, logout, isLoggedIn } from './utils/AuthService';
 
-import './index.css';
 
 import Display from './components/Display';
 import Callback from './components/Callback';

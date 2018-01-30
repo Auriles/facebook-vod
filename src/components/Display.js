@@ -1,3 +1,10 @@
+/* Auriles El Haddad
+31 / 01 / 2018
+Facebook VOD - Tous droits reservés. */
+
+// Page Display.js
+// Cette page est la pincipale lorsque l'utilisateur n'est pas connecté ou se déconnecte
+
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import Nav from './Nav';
@@ -13,11 +20,13 @@ class Display extends Component {
 
         <Nav />
 
-        <h3 className="text-center"> Bienvenue sur Facebook VOD </h3>
+        <div className="displayDivTitle">
+          <h3 className="text-center displayTitle"> Bienvenue sur Facebook VOD </h3>
+        </div>
 
         <hr />
 
-        <div className="col-sm-12 blue">
+        <div className="col-sm-12 displayDivParagraph">
           {
             (!isLoggedIn())
               ? <p className="text-center">
