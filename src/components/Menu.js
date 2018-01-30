@@ -19,33 +19,29 @@ class Menu extends React.Component {
             <nav className="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
               <ul className="nav sidebar-nav">
 
-                <li>
-                   <Link to='/accueil'>
-                    <a href="/accueil">
-                      <i className="fa fa-home" aria-hidden="true"></i>
-                    </a>
-                  </Link>
-                </li>
+                {
+                  (isLoggedIn()) ? (
+                    <li>
+                      <Link to='/accueil'>
+                        <a href="/accueil">
+                          <i className="fa fa-home" aria-hidden="true"></i>
+                        </a>
+                      </Link>
+                    </li>
+                  ) : ''
+                }
 
-                <li>
-                  <Link>
-                    <a href="">
-                      <i className="fa fa-user" aria-hidden="true"></i>
-                    </a>
-                  </Link>
-                </li>
-
-                <li>
-                  <Link to=''>
-                    <a href="/lecteur-video">
-                      <i className="fa fa-play-circle" aria-hidden="true"></i>
-                    </a>
-                  </Link>
-                </li>
-
-
-
-
+                {
+                  (isLoggedIn()) ? (
+                    <li>
+                      <Link to=''>
+                        <a href="/lecteur-video">
+                          <i className="fa fa-play-circle" aria-hidden="true"></i>
+                        </a>
+                      </Link>
+                    </li>
+                  ) : ''
+                }
 
               </ul>
             </nav>
