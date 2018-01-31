@@ -7,6 +7,7 @@ Facebook VOD - Tous droits reservés. */
 
 import React from 'react';
 import axios from 'axios';
+import { Link } from 'react-router';
 import Nav from './Nav';
 
 class PopularMovies extends React.Component {
@@ -68,8 +69,8 @@ class PopularMovies extends React.Component {
 
               {/* Informations du film */}
               <div className="col-lg-9 movieContent" key={movie.id}>
-                <span className="movieBold">Description :</span> <br/> {movie.overview} <br /> <br/>
-                <span className="movieBold">Date de sortie :</span> <br/> {movie.release_date} <br /> <br/>
+                <span className="movieBold">Description :</span> <br/> {movie.overview} <br /> <hr/>
+                <span className="movieBold">Date de sortie :</span> <br/> {movie.release_date} <br /> <hr/>
                 <span className="movieBold">Note globale du film :</span> <br/> {movie.vote_average} / 10
               </div>
 
