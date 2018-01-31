@@ -1,0 +1,50 @@
+/* Auriles El Haddad
+31 / 01 / 2018
+Facebook VOD - Tous droits reservés. */
+
+/* --------------------------------------- */
+
+/* CSS des filtres Movies */
+
+/* Titre principal de la page */
+.movieTitlePage {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Div globale contenant les films */
+.movieGlobalDiv {
+  margin-bottom: 60px;
+  border: solid rgba(77, 103, 168, 0.5) 1px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(77, 103, 168, 0.2);
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+/* Titre du film */
+.movieTitle {
+  background-color: rgba(77, 103, 168, 1);
+  width: 100%;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Image du film */
+.movieImage {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* Eléments du film */
+.movieContent {
+  text-align: justify;
+}
+
+/* span */
+.movieBold {
+  font-weight: bold;
+  color: brown;
+}
