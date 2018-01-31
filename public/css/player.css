@@ -1,0 +1,71 @@
+/* Auriles El Haddad
+31 / 01 / 2018
+Facebook VOD - Tous droits reservés. */
+
+/* --------------------------------------- */
+
+/* Titres */
+.moviePlayerTitle {
+  color:#4D67A8;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Contenant de la vidéo */
+.moviePlayerWrapper {
+  height: 500px;
+  border: solid #282C34 2px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(40, 44, 52, 0.2);
+  background-color: black;
+}
+
+/* Ajustements sur la vidéo */
+.moviePlayerReact {
+  width: auto;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Section contenant tous les éléments de contrôle de la vidéo */
+.moviePlayerSection {
+  vertical-align: top;
+  border: solid #4D67A8 1px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(77, 103, 168, 0.2);
+  margin-bottom: 30px;
+}
+
+/* Ajustements des éléments */
+.moviePlayerElements {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+/* Boutons */
+.moviePlayerButton {
+  color: #4D67A8;
+  border: solid #4D67A8 1px;
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Boutons au survol */
+.moviePlayerButton:hover {
+  background-color: #4D67A8;
+  color: white;
+  border: solid white 1px;
+  transition: all 0.3s ease-in 0s;
+}
+
+/* Input */
+.moviePlayerInput {
+  border: solid #4D67A8 1px;
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-right: 5px;
+}
+
+
+
+
