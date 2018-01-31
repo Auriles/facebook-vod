@@ -38,7 +38,7 @@ class Nav extends Component {
           {/* Filtre des films les mieux notés de l'API The Movie Database */}
           <li>
             {
-              (isLoggedIn()) ? <Link to="/films-mieux-notés">Mieux notés</Link> : ''
+              (isLoggedIn()) ? <Link to="/films-mieux-notes">Mieux notés</Link> : ''
             }
           </li>
 
@@ -52,7 +52,7 @@ class Nav extends Component {
           {/* Filtre des films actuellement au cinéma de l'API The Movie Database */}
           <li>
             {
-              (isLoggedIn()) ? <Link to="/films-actuellement-au-cinéma">Actuellement au cinéma</Link> : ''
+              (isLoggedIn()) ? <Link to="/films-actuellement-au-cinema">Actuellement au cinéma</Link> : ''
             }
           </li>
 

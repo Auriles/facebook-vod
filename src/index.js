@@ -27,9 +27,9 @@ const Root = () => {
         <Route path="/callback" component={Callback} />
         <Route path="/accueil" component={Home} />
         <Route path="/films-populaires" component={PopularMovies} />
-        <Route path="/films-mieux-notés" component={TopRatedMovies} />
+        <Route path="/films-mieux-notes" component={TopRatedMovies} />
         <Route path="/films-prochaines-sorties" component={UpcomingMovies} />
-        <Route path="/films-actuellement-au-cinéma" component={NowPlayingMovies} />
+        <Route path="/films-actuellement-au-cinema" component={NowPlayingMovies} />
         <Route path="/lecteur-video" component={MoviePlayer} />
       </Router>
     </div>
