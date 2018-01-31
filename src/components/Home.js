@@ -42,7 +42,7 @@ class Home extends React.Component {
                 {/* Card explicative gauche */}
                 <div class="col-sm-4 homeDivParagraph1 homeCard">
                   <p>
-                    Ce projet d'école consistait à <span className="homeBold">créer une plateforme de vidéo à la demande</span>. <br /> <br />
+                    Ce projet consistait à <span className="homeBold">créer une plateforme de vidéo à la demande</span>. <br /> <br />
                     De ce fait, il fallait créer un menu de navigation comportant <span className="homeBold">différents filtres</span>. <br /> <br />
                     Les filtres une fois effectués, font <span className="homeBold">appelle à une API </span> <br /> <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     <a href="https://www.themoviedb.org/" target="_blank"> The Movie Database</a>, <br />

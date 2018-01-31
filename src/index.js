@@ -1,15 +1,23 @@
+/* Auriles El Haddad
+31 / 01 / 2018
+Facebook VOD - Tous droits reservés. */
+
+// Index.js
+// Fichier racine qui permet de gérer les imports de librairies, des composants créés ainsi que d'effectuer le routing de l'application
+
+// Librairies
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router';
-import { requireAuth } from './utils/AuthService';
-import { login, logout, isLoggedIn } from './utils/AuthService';
 
-
+// Components
 import Display from './components/Display';
 import Callback from './components/Callback';
 import Menu from './components/Menu';
+import { requireAuth } from './utils/AuthService';
+import { login, logout, isLoggedIn } from './utils/AuthService';
 
-
+// Pages
 import Home from './components/Home';
 import PopularMovies from './components/PopularMovies';
 import TopRatedMovies from './components/TopRatedMovies';

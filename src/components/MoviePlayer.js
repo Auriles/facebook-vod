@@ -135,13 +135,26 @@ class MoviePlayer extends Component {
 
           <div className="row">
 
+            {/* Affichage des contrôles manuels */}
+            <div class="controlsBox">
+              <div>
+                <button class="moviePlayerButton">Afficher les contrôles manuels</button>
+              </div>
+            </div>
+
             {/* Contenant de la partie contrôle */}
             <div className="col-lg-6">
 
               <section className='moviePlayerSection'>
 
-                {/* Titre secondaire */}
-                <h3 className="moviePlayerTitle">Contrôles de la vidéo</h3>
+                <div className="row">
+
+                  {/* Titre secondaire */}
+                  <h3 className="moviePlayerTitle col-lg-8">Contrôles de la vidéo</h3>
+                  <div className="col-lg-4">
+                    <i className="fa fa-times cross" aria-hidden="true"></i>
+                  </div>
+                </div>
 
                 <hr/>
 

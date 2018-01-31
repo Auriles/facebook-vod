@@ -1,4 +1,8 @@
+/* Auriles El Haddad
+31 / 01 / 2018
+Facebook VOD - Tous droits reservés. */
 
+/*-------------------------------*/
 
 * {
   outline: none;
@@ -17,6 +21,7 @@ html {
   height: 100%;
 }
 
+/*-------------------------------*/
 
 /* Navigation */
 
@@ -71,8 +76,6 @@ html {
 }
 
 /*-------------------------------*/
-
-/* Sidebar - Auriles El Haddad */
 
 .sidebar-nav {
   position: absolute;
@@ -191,8 +194,6 @@ html {
 }
 
 /*-------------------------------*/
-
-/* Menu - Auriles El Haddad */
 
 .hamburger {
   position: fixed;
@@ -328,8 +329,6 @@ html {
 
 /*-------------------------------*/
 
-/* Overlay - Auriles El Haddad */
-
 .overlay {
   position: fixed;
   display: none;
@@ -344,5 +343,5 @@ html {
   z-index: 1;
 }
 
-/*-------------------------------*/
+
 

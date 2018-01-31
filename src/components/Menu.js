@@ -1,10 +1,16 @@
 
-import React, { Component } from 'react';
+/* Auriles El Haddad
+31 / 01 / 2018
+Facebook VOD - Tous droits reservés. */
+
+// Component Menu.js
+// Menu présent sur toutes les pages
+
+import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router';
 import { login, logout, isLoggedIn } from '../utils/AuthService';
 import Auth from '../utils/AuthService.js';
-
 
 class Menu extends React.Component {
   render() {
