@@ -7,7 +7,6 @@ Facebook VOD - Tous droits reservés. */
 
 import React from 'react';
 import axios from 'axios';
-import { Link } from 'react-router';
 import Nav from './Nav';
 
 
@@ -32,13 +31,6 @@ class UpcomingMovies extends React.Component {
   }
 
   render() {
-
-    // On initialise la variable baseImgURL afin de récupérer l'image de chaque film depuis l'api
-    // On initialise la variable posterImgPath pour récupérer le poster_path depuis l'api
-    // On initialise posterLink pour assembler les deux variables précédentes
-    let baseImgURL = "https://image.tmdb.org/t/p/w500/kqjL17yufvn9OVLyXYpvtyrFfak.jpg";
-    let posterImgPath = this.state.movie.map(movie => movie.poster_path);
-    let posterLink = baseImgURL + posterImgPath;
 
     return (
       <div className="">

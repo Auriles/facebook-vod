@@ -9,7 +9,6 @@ import React, { Component } from 'react'
 import { findDOMNode } from 'react-dom'
 import screenfull from 'screenfull'
 import ReactPlayer from 'react-player'
-import Duration from 'react-player'
 import Nav from './Nav';
 
 
@@ -23,7 +22,6 @@ class MoviePlayer extends Component {
     muted: false,
     played: 0,
     loaded: 0,
-    duration: 0,
     playbackRate: 1.0,
     loop: false
   }
@@ -92,8 +90,7 @@ class MoviePlayer extends Component {
   render() {
 
     // Définition des constantes
-    const { url, playing, volume, played, loaded, duration } = this.state
-    const SEPARATOR = ' · '
+    const { url, playing, volume, played, loaded } = this.state
 
     return (
       <div>

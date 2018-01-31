@@ -6,8 +6,6 @@ Facebook VOD - Tous droits reservés. */
 // Cette page est la pincipale lorsque l'utilisateur est connecté
 
 import React from 'react';
-import axios from 'axios';
-import { Link } from 'react-router';
 import Nav from './Nav';
 
 class Home extends React.Component {
@@ -45,7 +43,7 @@ class Home extends React.Component {
                     Ce projet consistait à <span className="homeBold">créer une plateforme de vidéo à la demande</span>. <br /> <br />
                     De ce fait, il fallait créer un menu de navigation comportant <span className="homeBold">différents filtres</span>. <br /> <br />
                     Les filtres une fois effectués, font <span className="homeBold">appel à une API </span> <br /> <i className="fa fa-arrow-right homeLink" aria-hidden="true"></i>
-                    <a href="https://www.themoviedb.org/" target="_blank" className="homeLink"> The Movie Database</a>, <br />
+                    <a href="https://www.themoviedb.org/" className="homeLink"> The Movie Database</a>, <br />
                     et permettent d'afficher les films en question.
                   </p>
                 </div>

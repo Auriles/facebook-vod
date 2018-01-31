@@ -14,8 +14,7 @@ import { Router, Route, browserHistory } from 'react-router';
 import Display from './components/Display';
 import Callback from './components/Callback';
 import Menu from './components/Menu';
-import { requireAuth } from './utils/AuthService';
-import { login, logout, isLoggedIn } from './utils/AuthService';
+import { isLoggedIn } from './utils/AuthService';
 
 // Pages
 import Home from './components/Home';
@@ -29,7 +28,9 @@ const Root = () => {
 
   return (
     <div className="container">
-      <Menu />
+      {
+        (isLoggedIn()) ? <Menu /> : ' '
+      }
       <Router history={browserHistory}>
         <Route path="/" component={Display} />
         <Route path="/callback" component={Callback} />

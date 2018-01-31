@@ -8,7 +8,6 @@ Facebook VOD - Tous droits reservés. */
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import { login, logout, isLoggedIn } from '../utils/AuthService';
-import Auth from '../utils/AuthService.js';
 
 class Nav extends Component {
 

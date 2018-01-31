@@ -6,10 +6,8 @@ Facebook VOD - Tous droits reservés. */
 // Cette page est la pincipale lorsque l'utilisateur n'est pas connecté ou se déconnecte
 
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 import Nav from './Nav';
 import { isLoggedIn } from '../utils/AuthService';
-import axios from 'axios';
 
 class Display extends Component {
 

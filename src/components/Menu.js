@@ -7,10 +7,8 @@ Facebook VOD - Tous droits reservés. */
 // Menu présent sur toutes les pages
 
 import React from 'react';
-import axios from 'axios';
 import { Link } from 'react-router';
-import { login, logout, isLoggedIn } from '../utils/AuthService';
-import Auth from '../utils/AuthService.js';
+import { isLoggedIn } from '../utils/AuthService';
 
 class Menu extends React.Component {
   render() {
@@ -22,7 +20,7 @@ class Menu extends React.Component {
           {/* <!-- Menu de navigation --> */}
           <div id="wrapper">
             <div className="overlay"></div>
-            <nav className="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <nav className="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper">
               <ul className="nav sidebar-nav">
 
                 {
