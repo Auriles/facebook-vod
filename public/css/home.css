@@ -45,6 +45,7 @@ Facebook VOD - Tous droits reservés. */
 .homeBold {
   font-weight: bold;
   font-style: italic;
+  text-decoration: underline;
 }
 
 /* --------------------------------------- */
@@ -61,7 +62,7 @@ Facebook VOD - Tous droits reservés. */
 /* Div card gauche survol */
 .homeDivParagraph1:hover {
   border: solid white 1px;
-  background-color:rgba(116, 190, 219, 1);
+  background-color:#4D67A8;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(116, 190, 219, 0.2);
   transition: all 0.3s ease-in 0s;
@@ -71,6 +72,16 @@ Facebook VOD - Tous droits reservés. */
 .homeDivParagraph1:hover > p {
   color: white;
   transition: all 0.3s ease-in 0s;
+}
+
+/* Lien vers The Movie Database */
+.homeLink {
+  color: #CA5B54;
+}
+
+/* Lien vers The Movie Database au survol */
+.homeLink:hover {
+  color: #5ECE7F;
 }
 
 /* --------------------------------------- */
