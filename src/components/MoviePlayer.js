@@ -107,7 +107,7 @@ class MoviePlayer extends Component {
             <h1 className="moviePlayerTitle">Facebook VOD Player</h1> <br/>
 
             {/* Contenant de la vidéo et du player */}
-            <div className="col-lg-12 moviePlayerWrapper">
+            <div className="col-lg-12 moviePlayerWrapper ">
 
                 <ReactPlayer
                   controls // En ajoutant cet attribut, les contrôles basiques du lecteur lié à l'url sont disponibles
@@ -126,12 +126,6 @@ class MoviePlayer extends Component {
 
             </div>
 
-          </div>
-
-          <br/>
-
-          <div className="row">
-
             {/* Affichage des contrôles manuels */}
             <div class="controlsBox">
               <div>
@@ -140,7 +134,7 @@ class MoviePlayer extends Component {
             </div>
 
             {/* Contenant de la partie contrôle */}
-            <div className="col-lg-6">
+            <div className="global col-lg-6">
 
               <section className='moviePlayerSection'>
 

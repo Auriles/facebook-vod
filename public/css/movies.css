@@ -19,6 +19,7 @@ Facebook VOD - Tous droits reservés. */
   box-shadow: 5px 5px 5px rgba(77, 103, 168, 0.2);
   margin-bottom: 30px;
   margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Titre du film */
@@ -30,7 +31,6 @@ Facebook VOD - Tous droits reservés. */
   color: white;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 /* Image du film */

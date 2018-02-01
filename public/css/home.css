@@ -17,11 +17,13 @@ Facebook VOD - Tous droits reservés. */
   color: white;
   padding-top: 15px;
   padding-bottom: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Div du titre secondaire  */
 .homeDivTitle2 {
   padding-top: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Div globale */
@@ -45,7 +47,7 @@ Facebook VOD - Tous droits reservés. */
 .homeBold {
   font-weight: bold;
   font-style: italic;
-  text-decoration: underline;
+  color: #74BEDB;
 }
 
 /* --------------------------------------- */
@@ -57,6 +59,7 @@ Facebook VOD - Tous droits reservés. */
   box-shadow: 5px 5px 5px rgba(77, 103, 168, 0.2);
   margin-bottom: 30px;
   margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Div card gauche survol */
@@ -93,6 +96,7 @@ Facebook VOD - Tous droits reservés. */
   box-shadow: 5px 5px 5px rgba(77, 103, 168, 0.2);
   margin-bottom: 30px;
   margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Div card centrale survol */
@@ -119,6 +123,7 @@ Facebook VOD - Tous droits reservés. */
   box-shadow: 5px 5px 5px rgba(77, 103, 168, 0.2);
   margin-bottom: 30px;
   margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Div card droite survol */
