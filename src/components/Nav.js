@@ -15,7 +15,7 @@ class Nav extends Component {
     return (
 
       // Barre de navigation
-      <nav className="navbar navbar-default">
+      <nav className="navbar navbar-default navBackground" id="navbar">
 
         {/* Lien vers la page d'accueil + appel de la fonction de connexion */}
         <div className="navbar-header">

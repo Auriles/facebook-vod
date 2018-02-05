@@ -21,7 +21,7 @@ $(document).ready(function () {
   var close = function () {
     $(".cross").click(function () {
       $(".moviePlayerSection").hide();
-      $(".controlsBox").show(1500);
+      $(".controlsBox").show(500);
       $(".moviePlayerWrapper").addClass("col-lg-12");
       $(".moviePlayerWrapper").removeClass("col-lg-6");
       $(".global").removeClass("col-lg-6");

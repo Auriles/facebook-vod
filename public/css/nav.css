@@ -4,6 +4,10 @@ Facebook VOD - Tous droits reservés. */
 
 /*-------------------------------*/
 
+.navBackground {
+/* background-image: url("../images/background-nav.png"); */
+}
+
 .navbar-right {
   margin-right: 0px !important
 }

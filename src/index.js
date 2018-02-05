@@ -14,6 +14,7 @@ import { Router, Route, browserHistory } from 'react-router';
 import Display from './components/Display';
 import Callback from './components/Callback';
 import Menu from './components/Menu';
+import Footer from './components/Footer';
 import { isLoggedIn } from './utils/AuthService';
 
 // Pages
@@ -27,21 +28,28 @@ import MoviePlayer from './components/MoviePlayer';
 const Root = () => {
 
   return (
-    <div className="container">
+    <div>
+      <div className="container">
+        {
+          (isLoggedIn()) ? <Menu /> : ' '
+        }
+        <Router history={browserHistory}>
+          <Route path="/" component={Display} />
+          <Route path="/callback" component={Callback} />
+          <Route path="/accueil" component={Home} />
+          <Route path="/films-populaires" component={PopularMovies} />
+          <Route path="/films-mieux-notes" component={TopRatedMovies} />
+          <Route path="/films-prochaines-sorties" component={UpcomingMovies} />
+          <Route path="/films-actuellement-au-cinema" component={NowPlayingMovies} />
+          <Route path="/lecteur-video" component={MoviePlayer} />
+        </Router>
+      </div>
       {
-        (isLoggedIn()) ? <Menu /> : ' '
+        (isLoggedIn()) ? <Footer /> : ' '
       }
-      <Router history={browserHistory}>
-        <Route path="/" component={Display} />
-        <Route path="/callback" component={Callback} />
-        <Route path="/accueil" component={Home} />
-        <Route path="/films-populaires" component={PopularMovies} />
-        <Route path="/films-mieux-notes" component={TopRatedMovies} />
-        <Route path="/films-prochaines-sorties" component={UpcomingMovies} />
-        <Route path="/films-actuellement-au-cinema" component={NowPlayingMovies} />
-        <Route path="/lecteur-video" component={MoviePlayer} />
-      </Router>
     </div>
+
+
   )
 }
 

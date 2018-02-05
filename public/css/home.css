@@ -54,7 +54,7 @@ Facebook VOD - Tous droits reservés. */
 
 /* Div card gauche */
 .homeDivParagraph1 {
-  border: solid rgba(116, 190, 219, 0.5) 1px;
+  border: solid rgba(77, 103, 168, 0.5) 1px;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(77, 103, 168, 0.2);
   margin-bottom: 30px;
@@ -79,19 +79,20 @@ Facebook VOD - Tous droits reservés. */
 
 /* Lien vers The Movie Database */
 .homeLink {
-  color: #CA5B54;
+  color: #5ECE7F;
 }
 
 /* Lien vers The Movie Database au survol */
 .homeLink:hover {
   color: #5ECE7F;
+  text-decoration: none;
 }
 
 /* --------------------------------------- */
 
 /* Div card centrale */
 .homeDivParagraph2 {
-  border: solid rgba(202, 92, 84, 0.5) 1px;
+  border: solid rgba(77, 103, 168, 0.5) 1px;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(77, 103, 168, 0.2);
   margin-bottom: 30px;
@@ -102,7 +103,7 @@ Facebook VOD - Tous droits reservés. */
 /* Div card centrale survol */
 .homeDivParagraph2:hover {
   border: solid white 1px;
-  background-color:rgba(202, 92, 84, 1);
+  background-color:#4D67A8;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(202, 92, 84, 0.2);
   transition: all 0.3s ease-in 0s;

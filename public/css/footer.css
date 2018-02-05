@@ -1,0 +1,71 @@
+/* Auriles El Haddad
+31 / 01 / 2018
+Facebook VOD - Tous droits reservés. */
+
+/* --------------------------------------- */
+
+/* CSS du footer */
+
+footer {
+  padding: 5px 0 10px;
+  border-top: solid rgba(77, 103, 168, 0.5) 1px;
+  box-shadow: 0px 0px 0px 1px rgba(77, 103, 168, 0.5);
+  background-color: rgba(81, 103, 163, 0.9);
+  margin-top: 200px;
+}
+
+footer .glyphicon {
+  font-size: 25px;
+  margin: 20px;
+  color: #88BFD9;
+}
+
+footer .glyphicon:hover {
+  font-size: 27px;
+}
+
+footer h5,
+footer h4,
+footer p {
+  color: #fff;
+  font-weight: normal;
+}
+
+.icons {
+  color: #fff;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.icons a {
+  color: #fff;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.icon-linkedin:hover {
+  color: #0077B5;
+  text-decoration: none;
+}
+
+.icon-github:hover {
+  color: #542C7A;
+  text-decoration: none;
+}
+
+.icon-mail:hover {
+  color: #DB4A38;
+  text-decoration: none;
+}
+
+.icon-phone:hover {
+  color: #41EC7A;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}

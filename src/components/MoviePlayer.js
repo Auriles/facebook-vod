@@ -5,10 +5,10 @@ Facebook VOD - Tous droits reservés. */
 // Page MoviePlayer.js
 // Cette page est la page de lecteur de vidéo
 
-import React, { Component } from 'react'
-import { findDOMNode } from 'react-dom'
-import screenfull from 'screenfull'
-import ReactPlayer from 'react-player'
+import React, { Component } from 'react';
+import { findDOMNode } from 'react-dom';
+import screenfull from 'screenfull';
+import ReactPlayer from 'react-player';
 import Nav from './Nav';
 
 
